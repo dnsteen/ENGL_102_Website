@@ -4,27 +4,105 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Penicillin</title>
-    <link rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   </head>
   <body>
+
     <!--Navbar-->
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark>
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="penicillin-logo.png" alt="Logo" width="55" height="35" class="d-inline-block align-text-top">
+      History of Penicillin
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">INTRO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">1920'S</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">1940'S</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">1960'S</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="better-fleming.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Alexander Fleming</h5>
+            <p>The father of penicillin.</p>
           </div>
         </div>
-      </nav>
+        <div class="carousel-item">
+          <img src="44-pa-1505b.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>WWII Poster</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="127-GVB-Vietnam-Marine000830.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Vietnam Marine</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container-fluid" style="background-color: rgb(15, 16, 34);">
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <p style="font-size: 12pt; color: aliceblue; margin-right: 150px; margin-left: 300px;">
+        The discovery of penicillin in the 1920s marked a groundbreaking moment in medical history, revolutionizing the treatment of bacterial infections. 
+        In 1928, Scottish scientist Alexander Fleming accidentally discovered penicillin when he noticed that mold growing on a Petri dish had killed surrounding 
+        bacteria. Though its potential was not immediately recognized, further research in the late 1930s and early 1940s led to the development of penicillin as 
+        the first true antibiotic. During World War II, penicillin became a crucial medical tool, saving countless lives by effectively treating wound infections, 
+        pneumonia, and other bacterial illnesses among Allied soldiers. Its mass production was prioritized, and by the end of the war, it was widely distributed 
+        on the battlefield, significantly reducing death and amputationrates. The success of penicillin in WWII laid the foundation for its continued military use, 
+        including during the Vietnam War. In Vietnam, penicillin was routinely administered to treat infected wounds and diseases common in tropical environments, 
+        such as syphilis and bacterial dysentery. Its use helped maintain the health and effectiveness of troops in challenging conditions. The story of penicillin, 
+        from accidental discovery to battlefield essential, illustrates its profound impact on both medicine and modern warfare.
+      </p>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
 </html>

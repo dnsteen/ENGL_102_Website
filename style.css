@@ -1,0 +1,11 @@
+.info-text{
+    color: white;
+    font-size: 16px;
+}
+.carousel img{
+    margin:auto;
+    height: 500px;
+}
+.carousel{
+    background-color: #2a2740;
+}
