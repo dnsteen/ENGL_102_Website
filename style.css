@@ -6,6 +6,13 @@
     margin:auto;
     height: 500px;
 }
-.carousel{
-    background-color: #2a2740;
-}
+.carousel-image-mask::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+  }
