@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Penicillin</title>
+    <title>War of Penicillin</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   </head>
@@ -14,7 +14,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img src="penicillin-logo.png" alt="Logo" width="55" height="35" class="d-inline-block align-text-top">
-      History of Penicillin
+      Penicillin Through Wars
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,16 @@
               <a class="nav-link active" aria-current="page" href="index.html">INTRO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">1920'S</a>
+              <a class="nav-link" href="1940.html">WWII</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">1940'S</a>
+              <a class="nav-link" href="1950.html">KOREAN WAR</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">1960'S</a>
+              <a class="nav-link" href="1960.html">VIETNAM WAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="biblio.html">Bibliography</a>
             </li>
           </ul>
         </div>
@@ -39,29 +42,38 @@
     </nav>
 
     <!--Carousel-->
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active carousel-image-mask">
+        <div class="carousel-item active">
+          <div class="position-relative">
           <img src="better-fleming.jpg" class="d-block w-100" alt="...">
+          <div class="mask position-absolute top-0 start-0 w-100 h-100"></div>
+          </div>
           <div class="carousel-caption d-none d-md-block">
             <h5>Alexander Fleming</h5>
             <p>The father of penicillin.</p>
           </div>
         </div>
-        <div class="carousel-item active carousel-image-mask">
+        <div class="carousel-item">
+          <div class="position-relative">
           <img src="44-pa-1505b.jpg" class="d-block w-100" alt="...">
+          <div class="mask position-absolute top-0 start-0 w-100 h-100"></div>
+          </div>
           <div class="carousel-caption d-none d-md-block">
             <h5>WWII Poster</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
-        <div class="carousel-item active carousel-image-mask">
+        <div class="carousel-item">
+          <div class="position-relative">
           <img src="127-GVB-Vietnam-Marine000830.jpg" class="d-block w-100" alt="...">
+          <div class="mask position-absolute top-0 start-0 w-100 h-100"></div>
+          </div>
           <div class="carousel-caption d-none d-md-block">
             <h5>Vietnam Marine</h5>
             <p>Some representative placeholder content for the third slide.</p>
@@ -78,31 +90,53 @@
       </button>
     </div>
 
-    <div class="container-fluid" style="background-color: rgb(15, 16, 34);">
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <p style="font-size: 12pt; color: aliceblue; margin-right: 150px; margin-left: 300px;">
-        The discovery of penicillin in the 1920s marked a groundbreaking moment in medical history, revolutionizing the treatment of bacterial infections. 
-        In 1928, Scottish scientist Alexander Fleming accidentally discovered penicillin when he noticed that mold growing on a Petri dish had killed surrounding 
-        bacteria. Though its potential was not immediately recognized, further research in the late 1930s and early 1940s led to the development of penicillin as 
-        the first true antibiotic. During World War II, penicillin became a crucial medical tool, saving countless lives by effectively treating wound infections, 
-        pneumonia, and other bacterial illnesses among Allied soldiers. Its mass production was prioritized, and by the end of the war, it was widely distributed 
-        on the battlefield, significantly reducing death and amputationrates. The success of penicillin in WWII laid the foundation for its continued military use, 
-        including during the Vietnam War. In Vietnam, penicillin was routinely administered to treat infected wounds and diseases common in tropical environments, 
-        such as syphilis and bacterial dysentery. Its use helped maintain the health and effectiveness of troops in challenging conditions. The story of penicillin, 
-        from accidental discovery to battlefield essential, illustrates its profound impact on both medicine and modern warfare.
-      </p>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
-      <hr>
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-md-7">
+          <h3>War Hero Penicillin</h3>
+          <hr>
+          <p class="info-text">
+            Throughout history many wars have been waged and fought resulting in billions of 
+            casualties for the human race as a whole, but the leading cause of casualties is 
+            not what many believe it might be. During the Civil-War two thirds of casualties 
+            were due to this factor and in World War I, one third of casualties were caused 
+            by the same thing, infections and disease. Without anything to stop such a devastating 
+            force that claimed so many lives, something had to be done not just on the battlefront
+            but for the many suffering at home. In 1928, ten years after the end of the first 
+            World War, Alexander Fleming made the discovery of a mold with antibiotic properties 
+            that would change the way medicine was used forever. The mold he found was Penicillium 
+            chrysogenum, that would later be used to create the penicillin that we still use today. 
+            It was not until 1940, at the height of the German aerial attacks on England during World 
+            War II, when the mold was refined and tested by Howard Florey and the team of doctors and 
+            chemists he recruited at the Dunn School of Pathology in Oxford. They used mice infected 
+            with lethal doses of streptococci bacteria to test the newly refined antibiotic, 
+            these test results showed clear and what seemed to be miraculous results so they 
+            immediately prepared for production large enough to begin testing on humans. One 
+            year later in February of 1941, the first patient was a policeman in England, Albert
+            Alexander, who had an infection from what some say was shrapnel from a bomb blast and
+            others say a cut from a rose bush. Regardless of what had caused his wound the penicillin
+            worked and cured his infection until he relapsed and died a month later. After this there
+            were many more successful cases that convinced them to start supplying penicillin to the
+            Allied soldiers on the battlefront. They observed the effects of the drug and noticed
+            how greatly it was benefitting the recovering soldiers and saving many lives, especially
+            against gonorrhea which was devastating soldiers in North Africa. With limited production 
+            being available at the time the Allies had to be strategic about where and who was getting 
+            the penicillin first, playing a crucial key into the war and its outcome. From then
+            on penicillin was a staple in hospitals and the warfront, appearing in every war after 
+            in varying degrees, being used heavily in the wars right after World War II. Penicillin 
+            changed the way battles were fought and the way medicine was used in war, and on a 
+            larger scale changed the way infections were seen in the world as a whole, what used to be 
+            a cut that would kill someone in perfect health was nothing more than a scratch that could 
+            be treated with ease.
+          </p>
+        </div>
+        <div class="col-md-5"><img class="medic-dude" src="Combat_Medic.webp" alt=""></div>
+        <hr>
+      </div>
+      <br>
+      <br>
     </div>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
 </html>
